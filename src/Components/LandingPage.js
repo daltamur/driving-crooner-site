@@ -1,7 +1,7 @@
 import croonerCar from './../img/croonerCar.png';
 import DrawSVG from "react-svg-drawing";
-import { Col, Container, Row } from 'react-bootstrap'
-import './../styles/styles.css'
+import { Col, Container, Row } from 'react-bootstrap';
+import simplyTooGood from './../img/simplyTooGood.png';
 
 function LandingPage(){
   return(
@@ -21,9 +21,14 @@ function LandingPage(){
 
       <Row className="justify-content-md-center">
         <div className="w3-container w3-center w3-animate-right">
-          <img src={croonerCar} alt="Crooner Car" style={{paddingTop: '1%', width: '75%', height: '75%'}}></img>
+          <img src={croonerCar} alt="Crooner Car" style={{paddingTop: '1%', width: '50%', height: '75%'}}></img>
         </div>
       </Row>
+        <Row className="justify-content-sm-center">
+          <div className="w3-container w3-center">
+            <img src={simplyTooGood} alt="Too Good" className={'fade-item'} style={{width: '65%', height: '50%'}}></img>
+          </div>
+        </Row>
       </Container>
   )
 }
