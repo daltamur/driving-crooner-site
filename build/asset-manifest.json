@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07d1f5f6.css",
+    "main.js": "/static/js/main.c9e2dd97.js",
+    "static/js/787.5d547b97.chunk.js": "/static/js/787.5d547b97.chunk.js",
+    "static/media/croonerCar.png": "/static/media/croonerCar.a17acc02d425ed8dd052.png",
+    "static/media/favicon.jpg": "/static/media/favicon.d5992004115ce8226021.jpg",
+    "static/media/simplyTooGood.png": "/static/media/simplyTooGood.115d957fb2a9d90b228e.png",
+    "index.html": "/index.html",
+    "main.07d1f5f6.css.map": "/static/css/main.07d1f5f6.css.map",
+    "main.c9e2dd97.js.map": "/static/js/main.c9e2dd97.js.map",
+    "787.5d547b97.chunk.js.map": "/static/js/787.5d547b97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07d1f5f6.css",
+    "static/js/main.c9e2dd97.js"
+  ]
+}
