@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App" style={{height: '100vh'}}>
       <div className="headerBar">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar  collapseOnSelect={true} expand="lg" bg="dark" variant="dark">
           <Navbar.Brand style={{marginLeft: '1%', cursor: 'pointer'}} onClick={() => setChosenComponent('Landing Page')}>
             <img
               src={logo}
@@ -27,13 +27,12 @@ function App() {
             {' '} {' '} The Driving Crooner
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" style={{marginRight: '1%'}}>
-            <Nav className="ms-auto">
-              {/*<Nav.Link>Find the Crooner</Nav.Link>*/}
-              {/*<Nav.Link>Become a Crooner</Nav.Link>*/}
-              {/*<Nav.Link>About the Crooner</Nav.Link>*/}
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" style={{marginRight: '1%'}}>
+            <Nav>
               {components.map((name) =>(
-                <Nav.Link onClick={() => setChosenComponent(name)}>{name}</Nav.Link>
+                <Nav.Item>
+                  <Nav.Link onClick={() => setChosenComponent(name)}>{name}</Nav.Link>
+                </Nav.Item>
               ))}
             </Nav>
           </Navbar.Collapse>

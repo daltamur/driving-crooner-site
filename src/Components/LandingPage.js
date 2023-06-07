@@ -7,7 +7,7 @@ function LandingPage(){
   return(
       <Container className={'center-container'}>
       <Row className="justify-content-md-center">
-        <Col>
+        <Col style={{textAlign: 'center'}}>
              <DrawSVG easing={'easeInQuad'} duration={3000} strokeWidth="1.0" width={'auto'}>
               <svg viewBox="0 0 1258.6667 458.66666" width={'60%'} height={'100%'}>
                 <path
