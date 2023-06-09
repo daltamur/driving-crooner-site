@@ -52,6 +52,7 @@ function Find(){
               <Marker
                 key={marker.id}
                 position={{ lat: marker.latitude, lng: marker.longitude }}
+                className={'marker-parent'}
                 />
             )
           })}
