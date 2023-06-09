@@ -10,6 +10,7 @@
     "cdbreact": "^1.5.17",
     "dotenv": "^16.1.4",
     "google-map-react": "^2.2.1",
+    "google-maps-react-markers": "^1.2.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",

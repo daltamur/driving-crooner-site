@@ -1,6 +1,6 @@
-import GoogleMapReact from 'google-map-react'
 import './../styles/styles.css'
 import marker from './../img/marker.png'
+import GoogleMap from 'google-maps-react-markers'
 
 function Find(){
   let markers=[
@@ -27,7 +27,7 @@ function Find(){
     }
   ]
 
-  const Marker = () => <div><img src={marker} alt={'marker'} className={"marker"}/></div>;
+  const CroonerMarker = () => <div><img src={marker} alt={'marker'} className={"marker"}/></div>;
 
   const defaultProps = {
     center: {
@@ -42,22 +42,22 @@ function Find(){
       <h1>
         Find the Crooner
       </h1>
-      <div className={'google-map'}>
-        <GoogleMapReact
-        bootstrapURLKeys={{key: process.env.REACT_APP_MAP_API_KEY}}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}>
+        <GoogleMap
+        apiKey={process.env.REACT_APP_MAP_API_KEY}
+        defaultCenter={{lat: defaultProps.center.lat, lng: defaultProps.center.lng}}
+        defaultZoom={defaultProps.zoom}
+        mapMinHeight="60vh"
+        >
           {markers.map(marker => {
             return(
-              <Marker
+              <CroonerMarker
                 key={marker.id}
-                position={{ lat: marker.latitude, lng: marker.longitude }}
-                className={'marker-parent'}
+                lat={marker.latitude}
+                lng={marker.longitude}
                 />
             )
           })}
-        </GoogleMapReact>
-      </div>
+        </GoogleMap>
     </div>
   )
 }

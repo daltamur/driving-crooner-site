@@ -1,5 +1,4 @@
 .contentBody {
-    display: grid;
     height: 80vh;
 }
 
@@ -37,10 +36,6 @@
 .marker{
     height: 50px;
     width: 50px;
-}
-
-.marker-parent{
-    position: relative;
 }
 
 .fade-item {
