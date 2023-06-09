@@ -7,6 +7,7 @@ import './styles/styles.css'
 import { useState } from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
 import logo from './img/favicon.jpg'
+import uuid from 'react-uuid';
 
 function App() {
   const [chosenComponent, setChosenComponent] = useState('Landing Page');
@@ -29,7 +30,9 @@ function App() {
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" style={{marginRight: '1%'}}>
             <Nav>
               {components.map((name) =>(
-                <Nav.Item>
+                <Nav.Item
+                  key={uuid()}
+                >
                   <Nav.Link onClick={() => setChosenComponent(name)}>{name}</Nav.Link>
                 </Nav.Item>
               ))}

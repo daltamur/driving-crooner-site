@@ -29,6 +29,16 @@
     padding-left: 1%;
 }
 
+.google-map {
+    width: 99%;
+    height: 60vh;
+}
+
+.marker{
+    height: 50px;
+    width: 50px;
+}
+
 .fade-item {
     animation: fadeIn ease 5s;
     opacity: 0;
