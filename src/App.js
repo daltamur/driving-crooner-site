@@ -14,8 +14,7 @@ function App() {
 
   return (
     <div className="App" style={{height: '100vh'}}>
-      <div className="headerBar">
-        <Navbar  collapseOnSelect={true} expand="lg" bg="dark" variant="dark" fixed={"top"}>
+        <Navbar  expand="lg" bg="dark" variant="dark" className={'stick-nav'}>
           <Navbar.Brand style={{marginLeft: '1%', cursor: 'pointer'}} onClick={() => setChosenComponent('Landing Page')}>
             <img
               src={logo}
@@ -37,7 +36,6 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </div>
       <div className="contentBody">
         {chosenComponent === 'Landing Page' && <LandingPage/>}
         {chosenComponent === 'Find the Crooner' && <Find/>}

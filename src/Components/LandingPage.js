@@ -2,9 +2,11 @@ import croonerCar from './../img/croonerCar.png';
 import DrawSVG from "react-svg-drawing";
 import { Col, Container, Row } from 'react-bootstrap';
 import simplyTooGood from './../img/simplyTooGood.png';
+import './../styles/styles.css';
 
 function LandingPage(){
   return(
+    <div className={'landingPage'}>
       <Container className={'center-container'}>
       <Row className="justify-content-md-center">
         <Col style={{textAlign: 'center'}}>
@@ -30,6 +32,7 @@ function LandingPage(){
           </div>
         </Row>
       </Container>
+    </div>
   )
 }
 export default LandingPage

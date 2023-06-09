@@ -1,8 +1,32 @@
 .contentBody {
     display: grid;
-    place-items: center;
     height: 80vh;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+}
+
+.landingPage{
+    display: grid;
     padding-top: 5%;
+    place-items: center;
+}
+
+.About{
+    padding-top: 5%;
+    padding-left: 1%;
+}
+
+.Find{
+    padding-top: 5%;
+    padding-left: 1%;
+}
+
+.Become{
+    padding-top: 5%;
+    padding-left: 1%;
 }
 
 .fade-item {
