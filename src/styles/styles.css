@@ -8,6 +8,10 @@
     top: 0;
 }
 
+.form-group {
+    padding-bottom: 1%;
+}
+
 .landingPage{
     display: grid;
     padding-top: 5%;
