@@ -79,7 +79,7 @@ function Find(){
       lat: 38.345963978136844,
       lng: -97.32106861712919
     },
-    zoom: 5
+    zoom: 3
   };
 
   return(

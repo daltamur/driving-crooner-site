@@ -1,4 +1,5 @@
 .contentBody {
+    display: grid;
     height: 80vh;
 }
 
