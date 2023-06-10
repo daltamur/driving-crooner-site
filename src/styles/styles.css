@@ -23,9 +23,7 @@
     opacity: 0;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    padding-top: 5%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 5% 1%;
 }
 
 .Find{
@@ -33,9 +31,7 @@
     opacity: 0;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    padding-top: 5%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 5% 1%;
 }
 
 
@@ -44,9 +40,7 @@
     opacity: 0;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    padding-top: 5%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 5% 1%;
 }
 
 .google-map {
