@@ -35,7 +35,18 @@ function About(){
         </h1>
         <Row>
           <Col lg={6} md={6} sm={12} xs={12}>
-            <p>Hi</p>
+            <p>A couple of years ago I thought it would look so cool if you were driving down the highway on your way to
+            Saratoga Avenue and you saw a crooner just driving along and singing while smoking a big fat cat cigar. One thing led
+            to another and I made some decals of a fedora and a big fat cat cigar. I put the decals on my driver side window
+            and I became the driving crooner. It's simply too good. I drive down the road and people see the driving crooner
+            on his way to the super marker. It's so awesome.</p>
+            <p>People really hate this thing, though. Frat boys have threatened my life and stolen my decals a couple of times.
+            Last night there was this guy with a dog who was definitely trying to rip them off my door and spit on them. So many
+            people try to make the crooner look fake by driving just a little bit ahead of me so they can see the decals are fake. I'm
+            so sick of it.</p>
+            <p>My wife says driving crooner is no good, no one wants driving crooner anymore. I have lost sleep over the driving crooner.
+            My life is so messed up because of it but I cannot stop. Driving crooner is a lifeforce for me. If you take away the driving crooner
+            from me I'm afraid something bad is going to happen. You cannot take this from me. This is my life. I own this.</p>
           </Col>
 
           <Col lg={6} md={6} sm={12} xs={12}>

@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cc16dab.css",
-    "main.js": "/static/js/main.71fdde6a.js",
+    "main.css": "/static/css/main.618e54af.css",
+    "main.js": "/static/js/main.40b8b0b7.js",
     "static/js/787.5d547b97.chunk.js": "/static/js/787.5d547b97.chunk.js",
     "static/media/croonerCar.png": "/static/media/croonerCar.a17acc02d425ed8dd052.png",
     "static/media/marker.png": "/static/media/marker.a5c2284efa93f586ee50.png",
+    "static/media/frat-boy.jpg": "/static/media/frat-boy.f42420eca09dadab5d51.jpg",
     "static/media/favicon.jpg": "/static/media/favicon.d5992004115ce8226021.jpg",
     "static/media/simplyTooGood.png": "/static/media/simplyTooGood.115d957fb2a9d90b228e.png",
+    "static/media/jailcell.jpg": "/static/media/jailcell.4349cf1a0a61226af62f.jpg",
     "index.html": "/index.html",
-    "main.4cc16dab.css.map": "/static/css/main.4cc16dab.css.map",
-    "main.71fdde6a.js.map": "/static/js/main.71fdde6a.js.map",
+    "main.618e54af.css.map": "/static/css/main.618e54af.css.map",
+    "main.40b8b0b7.js.map": "/static/js/main.40b8b0b7.js.map",
     "787.5d547b97.chunk.js.map": "/static/js/787.5d547b97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc16dab.css",
-    "static/js/main.71fdde6a.js"
+    "static/css/main.618e54af.css",
+    "static/js/main.40b8b0b7.js"
   ]
 }
