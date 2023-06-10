@@ -2,8 +2,26 @@ import './../styles/styles.css'
 import marker from './../img/marker.png'
 import GoogleMap from 'google-maps-react-markers'
 import { Col, Container, Row } from 'react-bootstrap'
+import axios from 'axios'
+import { useEffect, useState } from 'react'
 
 function Find(){
+  // axios
+  //   .get('https://zenquotes.io/api/quotes')
+  //   .then(response => console.log(response.data))
+
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    fetch('https://api.3geonames.org/LONDON-MULUA-PAULENI.json')
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        setPosts(data);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
   let markers=[
     {
       id:1,
