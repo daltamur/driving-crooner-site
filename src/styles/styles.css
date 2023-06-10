@@ -25,6 +25,7 @@
     animation-fill-mode: forwards;
     padding-top: 5%;
     padding-left: 1%;
+    padding-right: 1%;
 }
 
 .Find{
@@ -45,6 +46,7 @@
     animation-fill-mode: forwards;
     padding-top: 5%;
     padding-left: 1%;
+    padding-right: 1%;
 }
 
 .google-map {
@@ -80,6 +82,17 @@
 
 p {
     font-size: 26px;
+}
+
+.carouselCaption {
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    background-color: dimgrey;
+}
+
+.carouselItem:hover .carouselCaption{
+    opacity: 1;
 }
 
 @keyframes fadeIn {
