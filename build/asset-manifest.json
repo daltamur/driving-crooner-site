@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.de7526ed.css",
-    "main.js": "/static/js/main.deb172d6.js",
+    "main.css": "/static/css/main.4cc16dab.css",
+    "main.js": "/static/js/main.71fdde6a.js",
     "static/js/787.5d547b97.chunk.js": "/static/js/787.5d547b97.chunk.js",
     "static/media/croonerCar.png": "/static/media/croonerCar.a17acc02d425ed8dd052.png",
     "static/media/marker.png": "/static/media/marker.a5c2284efa93f586ee50.png",
     "static/media/favicon.jpg": "/static/media/favicon.d5992004115ce8226021.jpg",
     "static/media/simplyTooGood.png": "/static/media/simplyTooGood.115d957fb2a9d90b228e.png",
     "index.html": "/index.html",
-    "main.de7526ed.css.map": "/static/css/main.de7526ed.css.map",
-    "main.deb172d6.js.map": "/static/js/main.deb172d6.js.map",
+    "main.4cc16dab.css.map": "/static/css/main.4cc16dab.css.map",
+    "main.71fdde6a.js.map": "/static/js/main.71fdde6a.js.map",
     "787.5d547b97.chunk.js.map": "/static/js/787.5d547b97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7526ed.css",
-    "static/js/main.deb172d6.js"
+    "static/css/main.4cc16dab.css",
+    "static/js/main.71fdde6a.js"
   ]
 }
