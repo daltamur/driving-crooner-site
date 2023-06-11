@@ -15,6 +15,8 @@ function Find(){
     markers.push({id: i, longitude: Math.floor(Math.random() * (right - left + 1) + left), latitude: Math.floor(Math.random() * (top - bottom + 1) + bottom)})
   }
 
+  markers.push({id: markers.length, longitude: -75.2152, latitude: 39.9976})
+
 
   const CroonerMarker = () => <div><img src={marker} alt={'marker'} className={"marker"}/></div>;
 
